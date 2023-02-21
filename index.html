@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="email-validation.js">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body onload='document.form1.Email.focus()'>
+    <header>
+      <div class="logo">
+        <img src="images/logo.svg" alt="">
+      </div>
+      <div class="ul-li">
+        <ul>
+          <li>Features</li>
+          <li>Team</li>
+          <li>Sign In</li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="first-container">
+
+      <div class="background-first">
+      </div>
+
+      <div class="all-yours">
+        <div class="first-text">
+          <h1 class="first-ttl">
+            All your files in one secure location, accessible anywhere.
+          </h1>
+          <p class="first-txt">
+            Fylo stores your most important files in one secure location. 
+            Access them wherever you need, share and collaborate with friends, 
+            family, and co-workers.
+          </p>
+        </div>
+  
+        <div class="email-container">
+            <form name="form1" >
+              <input class="email" id="text" type="email" name="Email" placeholder="Enter your email..." required>
+              <div class="fail-text" id="fail-text">
+                <p class="fail-txt">
+                  Please check your email
+                </p> 
+              </div>
+              <button onclick="validateEmail(document.form1.Email)" class="submit" type="submit">Get Started</button>
+            </form>
+          </div>
+          <script src="email-validation.js"></script>
+          </body>
+        </div>
+      </div>
+   
+    </div>
+    <div class="crue">
+        <img class="crue-img" src="images/bg-curve-mobile.svg" alt="">
+        <img class="crue-desktop" src="images/bg-curve-desktop.svg" alt="">
+    </div>
+  <div class="second-div">
+   
+    <div class="background">
+     
+    </div>
+
+    <div class="two-div-culumn">
+      <div class="second-text-div">
+        <p class="stay">
+          Stay productive, wherever you are
+        </p>
+        <p class="never" >
+          Never let location be an issue when accessing your files. Fylo has you 
+          covered for all of your file storage needs.
+        </p>
+        <p class="securely">
+          Securely share files and folders with friends, family and colleagues for 
+          live collaboration. No email attachments required!
+        </p>
+  
+        <div class="see">
+          <p class="see-txt">
+            See how Fylo works
+          </p>
+          <img src="images/icon-arrow.svg" alt="">
+  
+        </div>
+      </div>
+  
+      <div class="last-div">
+        <div class="Fylo">
+          <p class="point">
+            "
+          </p>
+          <p class="text">
+            Fylo has improved our team productivity by an order of magnitude. Since 
+            making the switch our team has become a well-oiled collaboration machine.
+          </p>
+        </div>
+        <div class="name">
+          <img class="image-avatar" src="images/avatar-testimonial.jpg" alt="">
+          <div class="kyle-burton">
+            <p class="kyle">
+              Kyle Burton
+            </p>
+            <p class="founder">
+              Founder & CEO, Huddle
+            </p>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+    
+
+  </div>
+
+  <div class="get">
+    <div class="get-txt">
+      <h1 class="get-title">
+        Get early access today
+      </h1>
+      <p class="get-text">
+        It only takes a minute to sign up and our free starter tier is extremely generous. 
+        If you have any questions, our support team would be happy to help you.
+      </p>
+    </div>
+    <di class="email-form">
+      <form  id="form2" class="form" action="">
+        <div class="input-container">
+          <input id="second-text" class="emaill" type="email" name="Emaill" placeholder="email@example.com" required>
+          <div class="fail-text-second" id="fail-text-second">
+            <p class="fail-text-second">
+              Please check your email
+            </p> 
+          </div>
+        </div>
+        <button  class="submitt" type="submit">  Get Started For Free</button>
+      </form>
+
+    </div>
+  </div>
+
+  <footer>
+      <DIV class="footer-first">
+        <img class="logo-footer" src="images/logo.svg" alt="">
+        <div class="footer-phone">
+          <img class="phone-icon" src="images/icon-phone.svg" alt="">
+          <p class="example">
+            Phone: +1-543-123-4567
+          </p>
+        </div>
+        <div class="footer-email">
+          <img src="images/icon-email.svg" alt="">
+          <p class="example">
+            example@fylo.com
+          </p>
+        </div>
+      </DIV>
+      <div class="footer-about">
+        <ul class="ul">
+          <li class="li">About Us</li>
+          <li class="li">Jobs</li>
+          <li class="li"> Press</li>
+          <li class="li">Blog</li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <ul class="ul">
+          <li class="li">Contact Us</li>
+          <li class="li">Terms</li>
+          <li class="li"> Press</li>
+          <li class="li">Privacy</li>
+        </ul>
+      </div>
+     
+
+  </footer>
+</body>
+</html>

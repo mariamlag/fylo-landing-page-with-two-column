@@ -1,0 +1,765 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.4rem;
+    margin-top: 2.4rem;
+    margin-left: 2.4rem;
+  
+}
+ul {
+    list-style: none;
+    }
+.ul-li{
+    display: inline;
+}
+li{
+    display: inline-block;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #07043b;
+    margin-right: 2.4rem;
+}
+.logo{
+    display: flex;
+    width: 8rem;
+    height: 2.4rem;
+}
+
+.first-container{
+    width: 32rem;
+    height: 60.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 2.8rem;
+    margin-top: 10rem;
+}
+.background-first{
+    width: 30rem;
+    height: 22.5rem;
+    display: flex;
+    background-image: url(images/illustration-1.svg);
+    background-size: 30rem 22.5rem;
+    background-repeat: no-repeat;
+}
+.first-ttl{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #07043B;
+
+}
+.first-txt{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 2.4rem;
+
+    color: #07043B;
+}
+.first-text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.all-yours{
+   margin-top: 4rem;
+}
+.email-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.2rem;
+}
+.email{
+    width: 30.4rem;
+    height: 4rem;
+    border: 0.625px solid #07043B;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.4px;
+
+    color: #C2C2C2;
+    padding-left: 2rem;
+}
+.submit{
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 30.4rem;
+    height: 4rem;
+    background: #2F65F8;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    margin-top: 1.6rem;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+.submit:hover{
+    background: #6C9BFF;
+}
+
+.fail-text{
+    display: none;
+    width: 14.3rem;
+    height: 1.6rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+
+    color: #EF4877;
+}
+
+.second-div{
+    width: 100%;
+    display: flex;
+    height: 96rem;
+    flex-direction: column;
+    align-items: center;  
+    background: #f8f8fe;
+
+}
+.crue{
+    display: flex;
+    width: 100%;
+    margin-top: 9.3rem;
+}
+.crue-img{
+    width: 100%;
+}
+.background{
+    width: 32rem;
+    height: 24.5rem;
+    display: flex;
+    background-image: url(images/illustration-2.svg);
+    background-size: 30rem 22.5rem;
+    background-repeat: no-repeat;
+
+}
+.second-text-div{
+    margin-top: 8.7rem;
+    width: 32rem;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.stay{
+  
+    margin-top: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #07043B;
+}
+.never, .securely{
+    margin-top: 1.6rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;  
+    text-align: center;
+    
+    color: #615F7E;
+}
+
+.see{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.6rem;
+    border-bottom: 0.1rem solid #3DA08F;
+    padding-bottom: 0.6rem;
+    cursor: pointer;
+}
+.see-txt{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+    color: #3DA08F;
+    margin-right: 0.8rem;
+
+}
+.last-div{
+    width: 28rem;
+    height: 16.9rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.9rem 2.5rem 1.9rem 2.5rem;
+    margin-top: 4rem;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+    border-radius: 3.93258px;
+}
+
+.point{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    /* or 150% */
+
+    color: #07043B;
+}
+.text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.384615px;
+    margin-top: -1.2rem;
+    color: #07043B;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+.image-avatar{
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 10rem;
+    margin-right: 0.7rem;
+}
+.kyle{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 12px;
+letter-spacing: 0.45px;
+
+color: #07043B;
+}
+
+.founder{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 12px;
+    /* identical to box height, or 197% */
+    letter-spacing: 0.3px;
+
+    color: #07043B;
+}
+
+.get{
+    height: 34.5rem;
+    width: 100%;
+    background: #575988;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5.4rem 4.7rem 7.1rem 4.7rem;
+}
+.get-txt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.get-title{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+color: #FFFFFF;
+}
+.get-text{
+    margin-top: 1.6rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.email-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.2rem;
+    text-align: center;
+}
+.emaill{
+    width: 24rem;
+    height: 3.2rem;
+    border: 0.625px solid #07043B;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157059px);
+    border-radius: 1.47059px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+    letter-spacing: 0.4px;
+    padding-left: 1rem;
+
+    color: #C2C2C2;
+}
+.submitt{
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 24rem;
+    height: 3.2rem;
+    background: #2F65F8;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    margin-top: 0.8rem;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.4rem;
+
+    color: #FFFFFF;
+}
+.submitt:hover{
+    background: #6C9BFF;
+}
+.fail-text-second{
+    display: none;
+    width: 14.3rem;
+    height: 1.6rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+
+    color: white;
+}
+
+footer{
+    height: 59rem;
+    width: 100%;
+    background-color: #07043B;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6.5rem;
+    padding-left: 3.9rem;
+    
+}
+
+.logo-footer{
+    width: 10.5rem;
+    height: 3rem;
+    filter: invert();
+    margin-bottom: 3.2rem;
+}
+.footer-phone, .footer-email{
+    width: 22.2rem;
+    height: 2.4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 1.6rem;
+}
+.example{
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+.footer-about{
+    margin-top: 2rem;
+}
+
+.footer-about, .footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    
+}
+.footer-contact{
+    margin-top: 3.2rem;    
+}
+
+.ul {
+    display: contents;
+    list-style: none;
+    }
+.li{
+    display: flex;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: white;
+   
+
+}
+.crue-desktop{
+    display: none;
+}
+
+
+@media only screen and (min-width: 1440px){
+
+    header{
+        height: 4.9rem;
+        padding-top: 6.8rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+    li{
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        color: #07043b;
+    }
+    .logo{
+        width: 16.6rem;
+        height: 4.9rem;
+    }
+
+    .first-container{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 128rem;
+        height: 47.4rem;
+        margin-left: 8rem;
+        align-items: center;
+
+        
+    }
+    .all-yours{
+        order: 1;
+        width: 62.7rem;
+        height: 12rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .background-first{
+        order: 2;
+        width: 64rem;
+        height: 47.4rem;
+        display: flex;
+        background-image: url(images/illustration-1.svg);
+        background-size: 64rem 47.4rem;
+        background-repeat: no-repeat;
+    }
+    .first-ttl{
+        font-size: 4rem;
+        line-height: 6rem;
+        text-align: start;
+    
+    }
+    .first-txt{
+        width: 58.5rem;
+        font-family: 'Open Sans';
+        font-weight: 200;
+        font-size: 1.7rem;
+        line-height: 2.4rem;
+        text-align: start;
+        margin-top: 2.4rem;
+        letter-spacing: 0.53125px;
+    }
+
+
+    .form1{
+        display: flex;
+        flex-direction: row;
+        text-align: start;
+        margin-top: 3.2rem;
+    }
+    .email{
+    
+        width: 32rem;
+        height: 4.5rem;
+    
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #C2C2C2;
+        padding-left: 2rem;
+    }
+    .submit{
+
+        width: 20rem;
+        height: 4.5rem;
+        margin-left: 1.6rem;
+        margin-top: 0;
+    }
+    .input-container{
+        display: flex;
+        flex-direction: column; 
+    }
+    .form1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+  
+
+    .crue{
+        display: flex;
+        width: 100%;
+        margin-top: 9.3rem;
+    }
+    .crue-img{
+        display: none;
+    }
+    .crue-desktop{
+        display: flex;
+        width: 100%;
+    }
+    .second-div{
+        width: 100%;
+        display: flex;
+        height: 83.7rem;
+        flex-direction: row;
+        align-items: start;  
+        justify-content: space-between;
+        background: #f8f8fe;
+    
+    }
+  
+    .background{
+        order: 2;
+        width: 54.2rem;
+        height: 40.9rem;
+        background-size: 54.2rem 40.9rem;
+        margin-right: 8rem;
+        margin-top: 10rem;
+    
+    }
+    .two-div-culumn{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        margin-left: 8rem;
+    }
+    .second-text-div{
+        margin-top: 8.7rem;
+        width: 32rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        text-align: start;
+    }
+    .stay{
+        font-size: 4rem;
+        line-height: 4.7rem;
+        width: 65rem;
+        text-align: start;
+        margin-bottom: 3.8rem;
+    }
+    .never, .securely{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: start;
+        width: 52.9rem;
+
+    }
+
+    .last-div{
+        width: 35.6rem;
+        height: 21.5rem;
+        padding: 1.2rem 3.4rem 2.6rem 3.3rem;
+        margin-top: 4.5rem;
+        border-radius: 5px;
+    }
+    
+    .text{
+       
+        font-size: 1.3rem;
+        line-height: 2.3rem;
+        margin-top: -1.2rem;
+
+    }
+    
+    .name{
+        margin-top: 1.6rem;
+    }
+    .image-avatar{
+        width: 3.2rem;
+        height: 3.2rem;
+        margin-right: 0.9rem;
+    }
+    .kyle{
+    
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.55px;
+
+    }
+    
+    .founder{
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        /* identical to box height, or 197% */
+        letter-spacing: 0.4px;
+    }
+
+    .get{
+        height: 36.9rem;
+        flex-direction: row;
+        padding: 10rem 12rem 8rem 8rem;
+        justify-content: space-between;
+    }
+    .get-txt{
+        align-items: start;
+        flex-direction: column;
+    }
+    .get-title{
+        font-size: 3.32rem;
+        line-height: 4.8rem;
+    }
+    .get-text{
+        width: 53rem;
+        height: 7.2rem;
+        margin-top: 1.7rem;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        letter-spacing: 0.5px;
+        text-align: start;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .email-form{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.2rem;
+        text-align: center;
+    }
+    .emaill{
+        width: 48rem;
+        height: 4.8rem;
+    
+        border-radius: 3.125px;
+
+     
+        font-size: 1.2rem;
+    
+        letter-spacing: 0.4px;
+        padding-left: 2rem;
+    
+        color: #c0c0c0;
+    }
+    .submitt{
+        width: 20rem;
+        height: 4.8rem;
+        box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+        border-radius: 3.125px;
+        margin-top: 1.6rem;
+    
+    
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    
+    }
+    
+footer{
+    height: 39.1rem;
+   
+    flex-direction: row;
+    padding-top: 9.2rem;
+    padding-left: 8.6rem;
+     padding-right: 8.6rem;
+    justify-content: space-between;
+    
+}
+
+.logo-footer{
+    width: 13.5rem;
+    height: 3.9rem;
+}
+.footer-phone, .footer-email{
+    gap: 2rem;
+    margin-bottom: 2.7rem;
+}
+
+.footer-about{
+    margin-top: 7rem;
+}
+
+.footer-contact{
+    margin-top: 7rem;    
+}
+
+
+}
+
+    
+
