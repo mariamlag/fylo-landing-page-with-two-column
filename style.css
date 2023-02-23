@@ -553,7 +553,6 @@ footer{
         padding-left: 2rem;
     }
     .submit{
-
         width: 20rem;
         height: 4.5rem;
         margin-left: 1.6rem;
@@ -691,7 +690,7 @@ footer{
         letter-spacing: 0.5px;
         text-align: start;
     }
-    .form{
+    .form2{
         display: flex;
         flex-direction: column;
     }
